@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /* Add some styling for the popup */
+      #container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+      }
+
+      #links-container {
+        width: 600px;
+        height: 200px;
+        overflow-y: scroll;
+        margin-top: 20px;
+        padding: 10px;
+        border: 1px solid gray;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <h2>Extracted Links</h2>
+      <textarea id="links-container" rows="10" cols="50"></textarea>
+    </div>
+    <script src="./popup.js"></script>
+  </body>
+</html>
